@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full-Stack Developer — Laravel, PHP, MySQL, JavaScript">
+    <title>Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo"></a>
+
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-end">
+                <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="icon-light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="12" r="5" />
+                        <path
+                            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                    </svg>
+                    <svg class="icon-dark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-label">Full-Stack Developer</p>
+                <h1 class="hero-title">I build software<br>that works.</h1>
+                <p class="hero-desc">Laravel · PHP · MySQL · JavaScript</p>
+
+                <div class="hero-links">
+                    <a href="#work" class="link-primary">View work</a>
+                    <a href="#contact" class="link-secondary">Contact</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/image/profile_1.png" alt="" width="340" height="425">
+            </div>
+        </section>
+
+        <section id="work" class="section">
+            <header class="section-head">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Work</h2>
+            </header>
+
+            <div class="projects">
+                <article class="project">
+                    <div class="project-head">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="View project">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-outcome">340% sales increase in Q1</p>
+                    <p class="project-desc">Full-stack platform with inventory sync, Stripe payments, admin dashboard.
+                        50K+ transactions, 99.9% uptime.</p>
+                    <p class="project-stack">Laravel · MySQL · Stripe · Redis</p>
+                </article>
+
+                <article class="project">
+                    <div class="project-head">
+                        <h3 class="project-title">Collaboration Hub</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="View project">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-outcome">45% faster delivery for 50-person team</p>
+                    <p class="project-desc">Unified task management with real-time updates, role-based access, automated
+                        reporting.</p>
+                    <p class="project-stack">Laravel · Vue.js · WebSockets · Docker</p>
+                </article>
+
+                <article class="project">
+                    <div class="project-head">
+                        <h3 class="project-title">Headless CMS API</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="View project">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-outcome">Powers 12 apps, sub-50ms response</p>
+                    <p class="project-desc">Central API with flexible content modeling, versioning, multi-layer caching.
+                        10M+ requests/month.</p>
+                    <p class="project-stack">Laravel · PHP 8 · Redis · REST</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section section-alt">
+            <header class="section-head">
+                <span class="section-num">02</span>
+                <h2 class="section-title">About</h2>
+            </header>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">I build software that businesses rely on.</p>
+                    <p>Years of experience with Laravel and modern web development. I've helped companies scale products
+                        from MVP to millions of users. Clean code, tested thoroughly, built to last.</p>
+                </div>
+
+                <div class="about-image">
+                    <img src="assets/image/profile_2.png" alt="" loading="lazy">
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-block">
+                        <h3>Approach</h3>
+                        <p>Clean architecture. Tested thoroughly. Documented clearly. Built to be maintained.</p>
+                    </div>
+
+                    <div class="detail-block">
+                        <h3>Stack</h3>
+                        <div class="stack-list">
+                            <div>
+                                <span class="stack-label">Backend</span>
+                                <span>Laravel, PHP, MySQL, Redis</span>
+                            </div>
+                            <div>
+                                <span class="stack-label">Frontend</span>
+                                <span>JavaScript, Vue.js, CSS</span>
+                            </div>
+                            <div>
+                                <span class="stack-label">Tools</span>
+                                <span>Git, Docker, CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <header class="section-head">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Contact</h2>
+            </header>
+
+            <div class="contact-content">
+                <p class="contact-lead">Have a project?</p>
+                <a href="mailto:your.email@example.com" class="contact-email">your.email@example.com</a>
+
+                <div class="contact-links">
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>© 2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
