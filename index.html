@@ -1,195 +1,225 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+﻿<!DOCTYPE html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Full-Stack Developer — Laravel, PHP, MySQL, JavaScript">
-    <title>Developer</title>
+    <meta name="description" content="Senior Full-Stack Developer Portfolio - Aymane Zariouh">
+    <title>Aymane Zariouh | Digital Architect</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Spline+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="nav-inner">
-            <a href="#" class="nav-logo"></a>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-            <div class="nav-links">
+    <header class="nav">
+        <div class="nav-inner">
+            <a href="#top" class="brand">
+                <span class="brand-text">AYMANE.DEV</span>
+            </a>
+            <nav class="nav-links">
                 <a href="#work">Work</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
-            </div>
-
-            <div class="nav-end">
-                <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
-                    <svg class="icon-light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="1.5">
-                        <circle cx="12" cy="12" r="5" />
-                        <path
-                            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
-                    </svg>
-                    <svg class="icon-dark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="1.5">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-                    </svg>
-                </button>
+            </nav>
+            <div class="nav-actions">
+                <a href="./assets/cv-aymane.pdf" class="btn-outline" target="_blank">Resume</a>
             </div>
         </div>
-    </nav>
+    </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <p class="hero-label">Full-Stack Developer</p>
-                <h1 class="hero-title">I build software<br>that works.</h1>
-                <p class="hero-desc">Laravel · PHP · MySQL · JavaScript</p>
-
-                <div class="hero-links">
-                    <a href="#work" class="link-primary">View work</a>
-                    <a href="#contact" class="link-secondary">Contact</a>
+        <!-- Hero Section -->
+        <section class="hero" id="top">
+            <div class="container hero-container">
+                <div class="hero-copy">
+                    <span class="eyebrow">Available for work</span>
+                    <h1 class="hero-title">
+                        Digital <br>
+                        Architect
+                    </h1>
+                    <p class="hero-lead">
+                        I build high-end digital experiences for brands that refuse to blend in.
+                        Full-stack precision meets senior-level aesthetics.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="hero-image">
-                <img src="assets/image/profile_1.png" alt="" width="340" height="425">
+                <!-- Hero Image -->
+                <div class="hero-visual reveal">
+                    <div class="image-frame">
+                        <img src="assets/image/profile_1.png" alt="Aymane Zariouh">
+                    </div>
+                    <div class="hero-badge">
+                        <span>Based in Nador</span>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Marquee / Skills -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <div class="marquee-item">Laravel</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue.js</div>
+                <div class="marquee-item">Tailwind</div>
+                <div class="marquee-item">MySQL</div>
+                <div class="marquee-item">GSAP</div>
+                <div class="marquee-item">Figma</div>
+                <div class="marquee-item">Laravel</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue.js</div>
+                <div class="marquee-item">Tailwind</div>
+                <div class="marquee-item">MySQL</div>
+                <div class="marquee-item">GSAP</div>
+            </div>
+        </div>
+
+        <!-- Work Section (Bento Grid) -->
         <section id="work" class="section">
-            <header class="section-head">
-                <span class="section-num">01</span>
-                <h2 class="section-title">Work</h2>
-            </header>
-
-            <div class="projects">
-                <article class="project">
-                    <div class="project-head">
-                        <h3 class="project-title">E-Commerce Platform</h3>
-                        <div class="project-links">
-                            <a href="#" aria-label="View project">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="1.5">
-                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <p class="project-outcome">340% sales increase in Q1</p>
-                    <p class="project-desc">Full-stack platform with inventory sync, Stripe payments, admin dashboard.
-                        50K+ transactions, 99.9% uptime.</p>
-                    <p class="project-stack">Laravel · MySQL · Stripe · Redis</p>
-                </article>
-
-                <article class="project">
-                    <div class="project-head">
-                        <h3 class="project-title">Collaboration Hub</h3>
-                        <div class="project-links">
-                            <a href="#" aria-label="View project">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="1.5">
-                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <p class="project-outcome">45% faster delivery for 50-person team</p>
-                    <p class="project-desc">Unified task management with real-time updates, role-based access, automated
-                        reporting.</p>
-                    <p class="project-stack">Laravel · Vue.js · WebSockets · Docker</p>
-                </article>
-
-                <article class="project">
-                    <div class="project-head">
-                        <h3 class="project-title">Headless CMS API</h3>
-                        <div class="project-links">
-                            <a href="#" aria-label="View project">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="1.5">
-                                    <path d="M7 17L17 7M17 7H7M17 7V17" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <p class="project-outcome">Powers 12 apps, sub-50ms response</p>
-                    <p class="project-desc">Central API with flexible content modeling, versioning, multi-layer caching.
-                        10M+ requests/month.</p>
-                    <p class="project-stack">Laravel · PHP 8 · Redis · REST</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="about" class="section section-alt">
-            <header class="section-head">
-                <span class="section-num">02</span>
-                <h2 class="section-title">About</h2>
-            </header>
-
-            <div class="about-grid">
-                <div class="about-text">
-                    <p class="about-lead">I build software that businesses rely on.</p>
-                    <p>Years of experience with Laravel and modern web development. I've helped companies scale products
-                        from MVP to millions of users. Clean code, tested thoroughly, built to last.</p>
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-eyebrow">Selected Work</span>
+                    <h2>Featured Projects</h2>
                 </div>
 
-                <div class="about-image">
-                    <img src="assets/image/profile_2.png" alt="" loading="lazy">
-                </div>
-
-                <div class="about-details">
-                    <div class="detail-block">
-                        <h3>Approach</h3>
-                        <p>Clean architecture. Tested thoroughly. Documented clearly. Built to be maintained.</p>
-                    </div>
-
-                    <div class="detail-block">
-                        <h3>Stack</h3>
-                        <div class="stack-list">
-                            <div>
-                                <span class="stack-label">Backend</span>
-                                <span>Laravel, PHP, MySQL, Redis</span>
-                            </div>
-                            <div>
-                                <span class="stack-label">Frontend</span>
-                                <span>JavaScript, Vue.js, CSS</span>
-                            </div>
-                            <div>
-                                <span class="stack-label">Tools</span>
-                                <span>Git, Docker, CI/CD</span>
+                <div class="work-grid">
+                    <!-- Project 1 (Large) -->
+                    <article class="work-card reveal">
+                        <span class="card-index">01</span>
+                        <div class="work-meta">
+                            <span>2025</span>
+                            <span>Marketing & SEO</span>
+                        </div>
+                        <div class="work-info">
+                            <h3>Medeva Solutions</h3>
+                            <p>Engineered a complete digital presence overhaul. Implemented technical SEO strategies
+                                that improved local search visibility by 40% in the first quarter.</p>
+                            <div class="work-stack">
+                                <span>Local SEO</span>
+                                <span>Google Ads</span>
+                                <span>Analytics</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
+
+                    <!-- Project 2 (Small) -->
+                    <article class="work-card reveal">
+                        <span class="card-index">02</span>
+                        <div class="work-meta">
+                            <span>2024</span>
+                            <span>CRM System</span>
+                        </div>
+                        <div class="work-info">
+                            <h3>Global Digital</h3>
+                            <p>Developed an automated client acquisition pipeline and a review management system to
+                                streamline reputation building.</p>
+                            <div class="work-stack">
+                                <span>Automation</span>
+                                <span>CRM</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 (Small) -->
+                    <article class="work-card reveal">
+                        <span class="card-index">03</span>
+                        <div class="work-meta">
+                            <span>2022</span>
+                            <span>Operations</span>
+                        </div>
+                        <div class="work-info">
+                            <h3>McDonald's Ops</h3>
+                            <p>Managed high-velocity team operations, ensuring strict adherence to quality and speed
+                                standards under pressure.</p>
+                            <div class="work-stack">
+                                <span>Team Lead</span>
+                                <span>QA</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 (Large) -->
+                    <article class="work-card reveal">
+                        <span class="card-index">04</span>
+                        <div class="work-meta">
+                            <span>2026</span>
+                            <span>Portfolio V2</span>
+                        </div>
+                        <div class="work-info">
+                            <h3>Aymane Zariouh</h3>
+                            <p>A showcase of modern frontend capabilities. Featuring WebGL-style animated mesh
+                                backgrounds, 3D tilt interactions, and a responsive Bento grid layout.</p>
+                            <div class="work-stack">
+                                <span>HTML5</span>
+                                <span>CSS3 Variables</span>
+                                <span>Vanilla JS</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <header class="section-head">
-                <span class="section-num">03</span>
-                <h2 class="section-title">Contact</h2>
-            </header>
-
-            <div class="contact-content">
-                <p class="contact-lead">Have a project?</p>
-                <a href="mailto:your.email@example.com" class="contact-email">your.email@example.com</a>
-
-                <div class="contact-links">
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container about-container reveal">
+                <div class="about-content">
+                    <span class="section-eyebrow">The Developer</span>
+                    <h2>About Me</h2>
+                    <div class="about-text">
+                        <p>
+                            From Nador, Morocco. I combine a marketing background with sharp technical skills to build
+                            products that don't just work—they convert. Currently refining my craft at YOUCODE.
+                        </p>
+                        <p>
+                            Strategy first, code second. I believe the best websites solve real business problems.
+                        </p>
+                    </div>
                 </div>
+                <!-- About Image - Moved Here -->
+                <div class="about-visual">
+                    <div class="image-frame-about">
+                        <img src="assets/image/profile_2.png" alt="Aymane Zariouh presenting">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container reveal">
+                <span class="section-eyebrow">Get in touch</span>
+                <h2>Let's build something<br>impossible.</h2>
+                <a class="contact-email" href="mailto:aymanezariouh@gmail.com">aymanezariouh@gmail.com</a>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <span>© 2026</span>
+        <div class="container footer-inner">
+            <span>© 2026 Aymane Zariouh.</span>
+            <div class="footer-links">
+                <a href="https://github.com/aymanezariouh" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 
