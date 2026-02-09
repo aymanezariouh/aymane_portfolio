@@ -243,6 +243,7 @@ body::before {
     height: 60%;
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
 .btn-outline {
@@ -687,6 +688,7 @@ body::before {
 .footer {
     padding: 40px 0;
     border-top: 1px solid var(--border);
+    padding: 32px 0 40px;
 }
 
 .footer-inner {
@@ -724,6 +726,7 @@ body::before {
         padding: 0;
         flex: auto;
     }
+}
 
     .image-frame,
     .image-frame-about {
