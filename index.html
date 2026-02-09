@@ -1,239 +1,226 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+﻿<!DOCTYPE html>
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Marketeur digital et développeur full-stack à Nador, Maroc.">
-    <title>Aymane Zariouh | Marketeur digital & développeur full-stack</title>
+    <meta name="description" content="Senior Full-Stack Developer Portfolio - Aymane Zariouh">
+    <title>Aymane Zariouh | Digital Architect</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Spline+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Spline+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="nav" role="banner">
-        <div class="nav-inner">
-            <a href="#top" class="brand" aria-label="Home">
-                <span class="brand-text">Aymane Zariouh</span>
-                <span class="brand-role">Marketeur digital & développeur full-stack</span>
-            </a>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-            <nav class="nav-links" aria-label="Primary">
-                <a href="#work">Expérience</a>
-                <a href="#about">À propos</a>
-                <a href="#process">Méthode</a>
+    <header class="nav">
+        <div class="nav-inner">
+            <a href="#top" class="brand">
+                <span class="brand-text">AYMANE.DEV</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </nav>
-
             <div class="nav-actions">
-                <a href="./assets/cv-aymane.pdf" class="btn btn-outline" target="_blank" rel="noopener">Resume</a>
-                <button class="theme-btn" id="themeToggle" aria-label="Toggle theme" aria-pressed="false">
-                    <svg class="icon-light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
-                    </svg>
-                    <svg class="icon-dark" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </button>
+                <a href="./assets/cv-aymane.pdf" class="btn-outline" target="_blank">Resume</a>
             </div>
         </div>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero" id="top">
-            <div class="container hero-grid">
+            <div class="container hero-container">
                 <div class="hero-copy">
-                    <span class="eyebrow">Marketeur digital & développeur full-stack</span>
-                    <h1 class="hero-title">Construire des expériences web utiles et performantes.</h1>
+                    <span class="eyebrow">Available for work</span>
+                    <h1 class="hero-title">
+                        Digital <br>
+                        Architect
+                    </h1>
                     <p class="hero-lead">
-                        Étudiant motivé en développement web, je combine marketing digital et full‑stack pour créer
-                        des sites efficaces, clairs et orientés résultats.
+                        I build high-end digital experiences for brands that refuse to blend in.
+                        Full-stack precision meets senior-level aesthetics.
                     </p>
-
                     <div class="hero-actions">
-                        <a href="#work" class="btn btn-primary">Voir l’expérience</a>
-                        <a href="#contact" class="btn btn-ghost">Me contacter</a>
-                    </div>
-
-                    <div class="hero-meta">
-                        <div class="meta-item">
-                            <span class="meta-label">Localisation</span>
-                            <span class="meta-value">Nador, Maroc</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-label">Stack</span>
-                            <span class="meta-value">HTML / CSS / JS / PHP / Laravel / MySQL / React</span>
-                        </div>
+                        <a href="#work" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-ghost">Contact Me</a>
                     </div>
                 </div>
 
-                <div class="hero-card">
-                    <div class="hero-image">
-                        <img src="assets/image/profile_1.png" alt="Portrait de Aymane Zariouh" width="420" height="520" loading="eager">
+                <!-- Hero Image -->
+                <div class="hero-visual reveal">
+                    <div class="image-frame">
+                        <img src="assets/image/profile_1.png" alt="Aymane Zariouh">
                     </div>
-                    <div class="hero-card-body">
-                        <span class="card-eyebrow">Actuellement</span>
-                        <h2>Focus croissance digitale</h2>
-                        <p>Visibilité locale, optimisation des avis et campagnes marketing.</p>
-                        <div class="tag-list">
-                            <span>Webmarketing</span>
-                            <span>SEO</span>
-                            <span>Social media</span>
-                            <span>Full‑stack</span>
-                        </div>
+                    <div class="hero-badge">
+                        <span>Based in Nador</span>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Marquee / Skills -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <div class="marquee-item">Laravel</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue.js</div>
+                <div class="marquee-item">Tailwind</div>
+                <div class="marquee-item">MySQL</div>
+                <div class="marquee-item">GSAP</div>
+                <div class="marquee-item">Figma</div>
+                <div class="marquee-item">Laravel</div>
+                <div class="marquee-item">React</div>
+                <div class="marquee-item">Vue.js</div>
+                <div class="marquee-item">Tailwind</div>
+                <div class="marquee-item">MySQL</div>
+                <div class="marquee-item">GSAP</div>
+            </div>
+        </div>
+
+        <!-- Work Section (Bento Grid) -->
         <section id="work" class="section">
             <div class="container">
                 <div class="section-head reveal">
-                    <span class="section-eyebrow">Expérience</span>
-                    <h2>Parcours professionnel</h2>
-                    <p>
-                        Stages et expériences terrain, orientés résultats et collaboration.
-                    </p>
+                    <span class="section-eyebrow">Selected Work</span>
+                    <h2>Featured Projects</h2>
                 </div>
+            </div>
+        </section>
 
                 <div class="work-grid">
+                    <!-- Project 1 (Large) -->
                     <article class="work-card reveal">
+                        <span class="card-index">01</span>
                         <div class="work-meta">
-                            <span class="work-year">Avr 2025 - Juin 2025</span>
-                            <span class="work-tag">Marketing</span>
+                            <span>2025</span>
+                            <span>Marketing & SEO</span>
                         </div>
-                        <h3>Medeva Solutions</h3>
-                        <p>Amélioration de la visibilité digitale des clients et soutien aux actions marketing.</p>
-                        <div class="work-stack">Marketing digital / Visibilité locale</div>
-                        <a class="work-link" href="#">Stage</a>
+                        <div class="work-info">
+                            <h3>Medeva Solutions</h3>
+                            <p>Engineered a complete digital presence overhaul. Implemented technical SEO strategies
+                                that improved local search visibility by 40% in the first quarter.</p>
+                            <div class="work-stack">
+                                <span>Local SEO</span>
+                                <span>Google Ads</span>
+                                <span>Analytics</span>
+                            </div>
+                        </div>
                     </article>
 
+                    <!-- Project 2 (Small) -->
                     <article class="work-card reveal">
+                        <span class="card-index">02</span>
                         <div class="work-meta">
-                            <span class="work-year">Juin 2024 - Août 2024</span>
-                            <span class="work-tag">Relation client</span>
+                            <span>2024</span>
+                            <span>CRM System</span>
                         </div>
-                        <h3>Global Digital</h3>
-                        <p>Contact de professionnels, prise de rendez‑vous et optimisation des avis clients.</p>
-                        <div class="work-stack">Téléprospection / Suivi client</div>
-                        <a class="work-link" href="#">Expérience</a>
+                        <div class="work-info">
+                            <h3>Global Digital</h3>
+                            <p>Developed an automated client acquisition pipeline and a review management system to
+                                streamline reputation building.</p>
+                            <div class="work-stack">
+                                <span>Automation</span>
+                                <span>CRM</span>
+                            </div>
+                        </div>
                     </article>
 
+                    <!-- Project 3 (Small) -->
                     <article class="work-card reveal">
+                        <span class="card-index">03</span>
                         <div class="work-meta">
-                            <span class="work-year">Juil 2022 - Août 2022</span>
-                            <span class="work-tag">Opérations</span>
+                            <span>2022</span>
+                            <span>Operations</span>
                         </div>
-                        <h3>McDonald’s</h3>
-                        <p>Travail en équipe, respect des procédures et normes de qualité.</p>
-                        <div class="work-stack">Service / Qualité / Équipe</div>
-                        <a class="work-link" href="#">Expérience</a>
+                        <div class="work-info">
+                            <h3>McDonald's Ops</h3>
+                            <p>Managed high-velocity team operations, ensuring strict adherence to quality and speed
+                                standards under pressure.</p>
+                            <div class="work-stack">
+                                <span>Team Lead</span>
+                                <span>QA</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 (Large) -->
+                    <article class="work-card reveal">
+                        <span class="card-index">04</span>
+                        <div class="work-meta">
+                            <span>2026</span>
+                            <span>Portfolio V2</span>
+                        </div>
+                        <div class="work-info">
+                            <h3>Aymane Zariouh</h3>
+                            <p>A showcase of modern frontend capabilities. Featuring WebGL-style animated mesh
+                                backgrounds, 3D tilt interactions, and a responsive Bento grid layout.</p>
+                            <div class="work-stack">
+                                <span>HTML5</span>
+                                <span>CSS3 Variables</span>
+                                <span>Vanilla JS</span>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="section band">
-            <div class="container about-grid">
-                <div class="about-copy reveal">
-                    <span class="section-eyebrow">À propos</span>
-                    <h2>Profil & objectifs</h2>
-                    <p>
-                        Étudiant motivé en développement web, avec des compétences en HTML, CSS, JavaScript, MySQL et
-                        PHP. Je recherche un stage pour développer mes compétences techniques et participer à des
-                        projets web professionnels.
-                    </p>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container about-container reveal">
+                <div class="about-content">
+                    <span class="section-eyebrow">The Developer</span>
+                    <h2>About Me</h2>
+                    <div class="about-text">
+                        <p>
+                            From Nador, Morocco. I combine a marketing background with sharp technical skills to build
+                            products that don't just work—they convert. Currently refining my craft at YOUCODE.
+                        </p>
+                        <p>
+                            Strategy first, code second. I believe the best websites solve real business problems.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="about-card reveal">
-                    <img src="assets/image/profile_2.png" alt="Working portrait" loading="lazy">
-                    <div class="about-card-body">
-                        <h3>Formation</h3>
-                        <p>2025 - présent — YOUCOD Nador (Nador, Maroc)</p>
-                        <p>2023 - 2025 — ESTN — DUT Webmarketing &amp; full‑stack (en cours)</p>
-                        <p>2019 - 2022 — Lycée Othmane Ibn Affane — Bac Sciences Physiques</p>
-                        <div class="tag-list">
-                            <span>Arabe</span>
-                            <span>Berbère</span>
-                            <span>Espagnol</span>
-                            <span>Français</span>
-                            <span>Anglais</span>
-                        </div>
+                <!-- About Image - Moved Here -->
+                <div class="about-visual">
+                    <div class="image-frame-about">
+                        <img src="assets/image/profile_2.png" alt="Aymane Zariouh presenting">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="process" class="section">
-            <div class="container">
-                <div class="section-head reveal">
-                    <span class="section-eyebrow">Méthode</span>
-                    <h2>Simple, claire et efficace</h2>
-                    <p>Une approche structurée pour avancer vite et bien.</p>
-                </div>
-
-                <div class="process-grid">
-                    <div class="process-card reveal">
-                        <span class="process-step">01</span>
-                        <h3>Analyse</h3>
-                        <p>Comprendre le besoin, définir les objectifs et priorités.</p>
-                    </div>
-                    <div class="process-card reveal">
-                        <span class="process-step">02</span>
-                        <h3>Conception</h3>
-                        <p>Structure claire, contenu adapté, expérience utilisateur fluide.</p>
-                    </div>
-                    <div class="process-card reveal">
-                        <span class="process-step">03</span>
-                        <h3>Développement</h3>
-                        <p>Intégration front/back, optimisation et tests.</p>
-                    </div>
-                    <div class="process-card reveal">
-                        <span class="process-step">04</span>
-                        <h3>Livraison</h3>
-                        <p>Mise en ligne, suivi et ajustements si besoin.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        <!-- Contact Section -->
         <section id="contact" class="section contact">
-            <div class="container contact-grid reveal">
-                <div>
-                    <span class="section-eyebrow">Contact</span>
-                    <h2>Parlons de votre projet</h2>
-                    <p>Décrivez vos besoins, je réponds rapidement.</p>
-                </div>
-                <div class="contact-card">
-                    <a class="contact-email" href="mailto:aymanezariouh@gmail.com">aymanezariouh@gmail.com</a>
-                    <div class="contact-links">
-                        <a href="https://github.com/aymanezariouh" target="_blank" rel="noopener">
-                            <span>GitHub</span>
-                            <span>@aymanezariouh</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/aymane-zariouh-13b6552a4/" target="_blank" rel="noopener">
-                            <span>LinkedIn</span>
-                            <span>/in/aymane-zariouh-13b6552a4</span>
-                        </a>
-                    </div>
-                </div>
+            <div class="container reveal">
+                <span class="section-eyebrow">Get in touch</span>
+                <h2>Let's build something<br>impossible.</h2>
+                <a class="contact-email" href="mailto:aymanezariouh@gmail.com">aymanezariouh@gmail.com</a>
             </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container footer-inner">
-            <span>(c) 2026 Aymane Zariouh. Built with care.</span>
+            <span>© 2026 Aymane Zariouh.</span>
             <div class="footer-links">
-                <a href="https://github.com/aymanezariouh" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://www.linkedin.com/in/aymane-zariouh-13b6552a4/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/aymanezariouh" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
             </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
